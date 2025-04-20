@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Remember To Do</title>
+    <!-- fontlink -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="Images/note_64px.png" />
+    <!-- fontslink -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- my link  -->
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <!-- <i class="fa-solid fa-house"></i> -->
+    <div class="container">
+      <div class="todobox">
+        <div class="inputbox">
+          <input
+            type="text"
+            placeholder="What Do You Want To Do..."
+            class="input"
+          />
+          <button class="add"><i class="fa-solid fa-plus"></i></button>
+        </div>
+        <hr />
+
+        <ol class="activites">
+          <!-- <li>
+            <input type="checkbox" class="boxcheck"/>
+            <i class="fa-regular fa-square-minus"></i> One
+          </li> -->
+        </ol>
+      </div>
+    </div>
+    <!-- DELTEE -->
+    <div class="maindiv">
+      <div class="tomaindiv">
+        <h3>Do You Want To Delete it!</h3>
+        <div class="tobtn">
+          <button class="no">Cancel</button>
+          <button class="yes">Delete</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup center">
+      <div class="icon">
+        <i class="fa fa-check"></i>
+      </div>
+      <div class="title">Deleted</div>
+      <div class="description">The TO DO has been Deleted Successfuly!!</div>
+      <div class="dismiss-btn">
+        <button id="dismiss-popup-btn">Done</button>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
