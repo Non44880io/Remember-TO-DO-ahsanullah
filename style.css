@@ -269,7 +269,7 @@ hr {
     position: absolute;
     width: 100%;
     bottom: 250px;
-    transform: translatey(-400px);
+    transform: translatey(-700px);
   }
   .showbtne {
     transform: translateY(0px);
@@ -314,7 +314,7 @@ hr {
     bottom: 150px;
     left: 30px;
     border-radius: 10px;
-    transform: translateY(-500px);
+    transform: translateY(-800px);
   }
   .newclass {
     transform: translateY(0);
