@@ -312,7 +312,7 @@ hr {
   .center {
     position: absolute;
     bottom: 150px;
-    left: 30px;
+    left: 40px;
     border-radius: 10px;
     transform: translateY(-800px);
   }
