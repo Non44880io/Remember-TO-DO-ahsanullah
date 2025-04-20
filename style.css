@@ -6,7 +6,7 @@
   font-weight: bold;
 }
 .container {
-  background: url(../Images/crescent_moon_in_starry_sky-wallpaper-1366x768.jpg);
+  background: url(crescent_moon_in_starry_sky-wallpaper-1366x768.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -192,7 +192,7 @@ hr {
 /* responsvbes */
 @media only screen and (max-width: 767px) {
   .container {
-    background: url(../Images/crescent_moon_in_starry_sky-wallpaper-1366x768.jpg);
+    background: url(crescent_moon_in_starry_sky-wallpaper-1366x768.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
