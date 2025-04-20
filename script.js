@@ -26,7 +26,7 @@ const dismissbtn = document.querySelector("#dismiss-popup-btn");
 activites.addEventListener("click", function (e) {
   if (e.target.tagName.toLowerCase() === "input") {
     e.target.parentElement.classList.toggle("done");
-    storeDate();
+    // storeDate();
   }
 });
 activites.addEventListener("click", function (e) {
